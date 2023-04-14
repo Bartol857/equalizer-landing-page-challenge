@@ -1,0 +1,131 @@
+@media (min-width: 768px) {
+	body {
+		background-image: url('../assets/bg-pattern-1.svg'),
+			url('../assets/bg-main-tablet.png');
+		background-position: 110% -50px, 80% -20%;
+        background-size: 35%, 130%;
+	}
+
+	h1 {
+		font-size: 64px;
+		line-height: 64px;
+		letter-spacing: -0.73px;
+	}
+
+	p {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.header {
+		margin: 62px 39px;
+	}
+
+	.text {
+		margin: 0 39px;
+		width: 520px;
+	}
+
+	.box {
+		margin: 200px auto;
+		width: 696px;
+        background-size: 40%;
+
+		&__phone {
+			top: -125px;
+			left: 30%;
+			width: 270px;
+			height: 556px;
+		}
+
+        &__premium {
+            width: 399px;
+            left: 35%;
+            bottom: -110px;
+        }
+	}
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        // align-items: end;
+        margin: 200px 39px 50px;
+
+        &__text{
+            width: 366px;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+		background-image: url('../assets/bg-pattern-1.svg'),
+			url('../assets/bg-main-desktop.png');
+		background-position: 100% -50px, 80% 50%;
+        background-size: 20%, 130%;
+	}
+
+	h1 {
+		font-size: 88px;
+		line-height: 88px;
+		letter-spacing: -1px;
+	}
+
+    h2 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+	p {
+		font-size: 20px;
+		line-height: 34px;
+	}
+
+    .header {
+		margin: 62px 165px;
+	}
+
+    .text {
+		margin: 100px 165px;
+		width: 850px;
+	}
+
+    .box {
+        margin: 300px auto;
+		width: 1100px;
+        background: $dark url('../assets/bg-pattern-2.svg') top left 42%/26% no-repeat;
+
+        &__phone {
+			top: -200px;
+			left: 25%;
+			width: 312px;
+			height: 642px;
+		}
+
+        &__premium {
+            padding: 40px 66px;
+            width: 446px;
+            height: 625px;
+            left: 50%;
+            bottom: -130px;
+        }
+
+        &__btn {
+            width: 333px;
+        }
+    }
+
+    .footer {
+        margin: 200px 165px 75px;
+
+        &__info {
+            display: flex;
+            align-items: start;
+
+            img {
+                margin-top: 20px ;
+                margin-right: 75px;
+            }
+        }
+    }
+}
